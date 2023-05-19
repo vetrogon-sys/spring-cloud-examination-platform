@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.toList;
 
 @RestController
-@RequestMapping("/exercise")
+@RequestMapping("/exercises")
 @RequiredArgsConstructor
 public class MathematicsController {
     private final MathematicsService mathService;
