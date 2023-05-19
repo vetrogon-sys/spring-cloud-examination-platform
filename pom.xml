@@ -13,6 +13,7 @@
 
     <modules>
         <module>mathematic</module>
+        <module>history</module>
     </modules>
 
     <parent>
