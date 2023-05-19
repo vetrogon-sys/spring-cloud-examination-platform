@@ -11,7 +11,7 @@ import java.util.Random;
 public class MathematicsServiceImpl implements MathematicsService {
 
     private final Random random = new Random();
-    @Value("${math.max:10}")
+    @Value("${math.max}")
     private int max;
 
 
